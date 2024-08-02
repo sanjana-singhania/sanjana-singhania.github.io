@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <!--UNICONS-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+        <!--SWIPER CSS-->
+        <link rel="stylesheet" href="">
+
+        <!--CSS-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title> Sanjana Singhania Portfolio</title>
+    </head>    
+    <body>
+        <!--HEADER-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav_logo">Sanjana</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="uil uil-pen nav__icon"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#projects" class="nav__link">
+                                <i class="uil uil-arrow nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-fast-mail nav__icon"></i> Contact
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="nav__item">
+                        <i class="uil uil-times nav_close" id="nav-close"></i>
+                    </div>
+                </div>
+                <div class="nav__buttons">
+                    <input type="range" id="colorSlider" min="0" max="360" value="250">
+                </div>
+                <div class="nav__buttons">
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--MAIN-->
+        <main class="main">
+            <!--HOME-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/sanjana-singhania/" class="home__social-icon" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-linkedin"></i> Linkedin
+                            </a>
+                            <a href="https://www.github.com/sanjana-singhania" class="home__social-icon" target="_blank" rel="noopener noreferrer">
+                                <i class="uil uil-github"></i> Github
+                            </a>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Sanjana</h1>
+                            <h3 class="home__subtitle">Computer Science @ Northeastern</h3>
+                            <p class="home__description">Sophomore interested in AI, ML, and cybersecurity.</p>
+                        </div>
+                    </div>
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll Down<i class="uil uil-arrow-down"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__content grid">
+                    <h2 class="section__title">About Me</h2>
+                    <p class="about__description">To be updated soon. Will talk about my interests here, as well as my future goals!</p>
+                </div>
+            </div>
+        </section>
+
+        <!--EXPERIENCE-->
+        <section class="experience-section" id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item" id="cosmo">
+                <div class="experience-date">
+                    <p>Aug 2024 - Present</p>
+                    <p>Boston, MA</p>
+                </div>
+                <div class="experience-details">
+                    <h3>Program Director</h3>
+                    <h4>CoSMO</h4>
+                    <p>Incoming Program Director at the Computer Science Mentoring Organization at Northeastern University.</p>
+                </div>
+            </div>
+            <div class="experience-item" id="oasis">
+                <div class="experience-date">
+                    <p>Jan 2024 - Apr 2024</p>
+                    <p>Boston, MA</p>
+                </div>
+                <div class="experience-details">
+                    <h3>Software Developer</h3>
+                    <h4>Oasis</h4>
+                    <p>Engineering a partner-matching platform for computer science students at Northeastern.</p>
+                </div>
+            </div>
+            <div class="experience-item" id="rip">
+                <div class="experience-date">
+                    <p>Sep 2023 - Apr 2024</p>
+                    <p>Boston, MA</p>
+                </div>
+                <div class="experience-details">
+                    <h3>Researcher</h3>
+                    <h4>Chi Sigma Xi Research Immerse Program</h4>
+                    <p>Researched recommender systems and different methods to tackle the accuracy-diversity problem in these systems.</p>
+                </div>
+            </div>
+            <div class="experience-item" id="disrupt">
+                <div class="experience-date">
+                    <p>Sep 2023 - Dec 2023</p>
+                    <p>Boston, MA</p>
+                </div>
+                <div class="experience-details">
+                    <h3>Competitor</h3>
+                    <h4>Disrupt Finnovate</h4>
+                    <p>Created a B2B platform connecting Boston startups and small businesses with organizations to provide them with resources and reduce transaction costs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="skills-section">
+            <div class="skills-container">
+                <div class="skills-marquee">
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>Java</span>
+                    <span>C++</span>
+                    <span>SQL</span>
+                    <span>Git</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="projects section" id="projects">
+            <div class="projects__container container grid">
+                <h2 class="section__title">Projects</h2>
+                <div class="project-container">
+                    <div class="project-image">
+                        <img src="assets/img/download.jpg" alt="Under The Sea">
+                    </div>
+                    <div class="project-description">
+                        <h2>Under The Sea Productivity</h2>
+                        <p>Engineered productivity Google Chrome extension in a 36-hour hackathon, leveraging HTML, CSS, JS. 
+                            Crafted timer system to monitor user activity on unproductive tabs, coupled with water animation for visual feedback, which renders the user’s tab unusable once the timer hits 0.
+                            Enabled users to classify and regulate unproductive websites, integrating local storage for efficient data retrieval</p>
+                            
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Let's Connect!</h2>
+            <div class="contact__container container grid">
+                <p class="contact__description">
+                    If you want to get in touch with me about something or just want to say hi, reach out on social media or send me an email.
+                </p>
+                <div class="contact__social">
+                    <a href="https://github.com/TODO" class="contact__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-github"></i> GitHub
+                    </a>
+                    <a href="https://linkedin.com/in/TODO" class="contact__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="mailto:TODO@example.com" class="contact__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-envelope"></i> Email
+                    </a>
+                    <a href="https://itch.io/profile/TODO" class="contact__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-game-structure"></i> Itch.io
+                    </a>
+                    <a href="https://itch.io/profile/TODO" class="contact__social-icon" target="_blank" rel="noopener noreferrer">
+                        <i class="uil uil-discord"></i> Discord
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        </main>
+
+        <!--FOOTER-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer_container container grid">
+                    <div>
+                        <h1 class="footer__title">Sanjana</h1>
+                        <span class="footer__subtitle">Software Developer</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">About</a>
+                        </li>
+                        <a>/</a>
+                        <li>
+                            <a href="#experience" class="footer__link">Experience</a>
+                        </li>
+                        <a>/</a>
+                        <li>
+                            <a href="#projects" class="footer__link">Projects</a>
+                        </li>
+                        <a>/</a>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <p class="footer__copyright">&#169; Sanjana. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <!--SCROLL TOP-->
+
+        <!--SWIPER JS-->
+        <script src=""></script>
+
+        <!--MAIN JS-->
+        <script src="assets/js/main.js"></script>
+
+    </body>
+
+    </html>

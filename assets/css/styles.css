@@ -134,6 +134,12 @@ img {
 }
 
 /*==================== LAYOUT ====================*/
+.outside-container {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 .container {
   max-width: 768px;
   margin-left: var(--mb-1-5);
@@ -519,7 +525,7 @@ img {
 }
 
 .footer__bg {
-  background-color: var(--first-color-second);
+  background-color: var(--body-color);
   padding: 1rem 0 1.5rem; 
 }
 
